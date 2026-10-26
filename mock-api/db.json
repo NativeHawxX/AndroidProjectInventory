@@ -1,0 +1,156 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "roomId": 1,
+      "containerName": "Шкаф",
+      "thingName": "Свитер",
+      "description": "Серый шерстяной свитер",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "roomId": 1,
+      "containerName": "Шкаф",
+      "thingName": "Рубашка",
+      "description": "Белая офисная рубашка",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "roomId": 2,
+      "containerName": "Коробка с инструментами",
+      "thingName": "Молоток",
+      "description": "Строительный молоток",
+      "categoryId": 2
+    },
+    {
+      "id": 4,
+      "roomId": 2,
+      "containerName": "Коробка с инструментами",
+      "thingName": "Набор отверток",
+      "description": "Набор из 12 отверток",
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "roomId": 3,
+      "containerName": "Ящик для автомобиля",
+      "thingName": "Автомобильный насос",
+      "description": "Ручной насос для шин",
+      "categoryId": 5
+    },
+    {
+      "id": 6,
+      "roomId": 3,
+      "containerName": "Ящик для автомобиля",
+      "thingName": "Гаечные ключи",
+      "description": "Набор гаечных ключей",
+      "categoryId": 2
+    },
+    {
+      "id": 7,
+      "roomId": 1,
+      "containerName": "Шкаф",
+      "thingName": "Джинсы",
+      "description": "Повседневные синие джинсы",
+      "categoryId": 1
+    },
+    {
+      "id": 8,
+      "roomId": 1,
+      "containerName": "Комод",
+      "thingName": "Постельное белье",
+      "description": "Комплект постельного белья",
+      "categoryId": 4
+    },
+    {
+      "id": 9,
+      "roomId": 1,
+      "containerName": "Комод",
+      "thingName": "Полотенца",
+      "description": "Набор банных полотенец",
+      "categoryId": 5
+    },
+    {
+      "id": 10,
+      "roomId": 2,
+      "containerName": "Коробка с инструментами",
+      "thingName": "Рулетка",
+      "description": "Измерительная рулетка 5 метров",
+      "categoryId": 2
+    },
+    {
+      "id": 11,
+      "roomId": 2,
+      "containerName": "Коробка с инструментами",
+      "thingName": "Удлинитель",
+      "description": "Сетевой удлинитель на 5 розеток",
+      "categoryId": 5
+    },
+    {
+      "id": 12,
+      "roomId": 2,
+      "containerName": "Полка с бытовой химией",
+      "thingName": "Стиральный порошок",
+      "description": "Порошок для цветных тканей",
+      "categoryId": 5
+    },
+    {
+      "id": 13,
+      "roomId": 2,
+      "containerName": "Полка с бытовой химией",
+      "thingName": "Средство для стекол",
+      "description": "Жидкость для мытья окон",
+      "categoryId": 5
+    },
+    {
+      "id": 14,
+      "roomId": 3,
+      "containerName": "Ящик для автомобиля",
+      "thingName": "Автомобильный фонарь",
+      "description": "Фонарик для аварийного комплекта",
+      "categoryId": 5
+    },
+    {
+      "id": 15,
+      "roomId": 3,
+      "containerName": "Ящик для автомобиля",
+      "thingName": "Рабочие перчатки",
+      "description": "Защитные перчатки для ремонта",
+      "categoryId": 1
+    },
+    {
+      "id": 16,
+      "roomId": 3,
+      "containerName": "Садовый инвентарь",
+      "thingName": "Секатор",
+      "description": "Секатор для обрезки растений",
+      "categoryId": 2
+    },
+    {
+      "id": 17,
+      "roomId": 3,
+      "containerName": "Садовый инвентарь",
+      "thingName": "Шланг",
+      "description": "Поливочный шланг",
+      "categoryId": 5
+    },
+    {
+      "id": 18,
+      "roomId": 2,
+      "containerName": "Коробка «Праздники»",
+      "thingName": "Елочные игрушки",
+      "description": "Набор новогодних украшений",
+      "categoryId": 4
+    },
+    {
+      "id": 19,
+      "roomId": 2,
+      "containerName": "Коробка «Праздники»",
+      "thingName": "Гирлянда",
+      "description": "Светодиодная гирлянда",
+      "categoryId": 4
+    }
+  ]
+}

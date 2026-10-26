@@ -1,0 +1,10 @@
+{
+  "name": "inventory-mock-api",
+  "private": true,
+  "scripts": {
+    "start": "json-server --host 0.0.0.0 --port 3000 db.json"
+  },
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

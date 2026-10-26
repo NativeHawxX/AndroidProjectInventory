@@ -5,10 +5,6 @@ import com.example.inventory.data.model.Room
 import com.example.inventory.data.model.SearchResult
 import com.example.inventory.data.model.Thing
 
-/**
- * Единое состояние экрана (UDF).
- * View читает это состояние и больше ничего не знает.
- */
 data class InventoryUiState(
     val rooms: List<Room> = emptyList(),
     val containersByRoom: Map<Long, List<Container>> = emptyMap(),

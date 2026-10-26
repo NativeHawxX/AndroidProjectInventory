@@ -8,6 +8,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ExpandLess
 import androidx.compose.material.icons.filled.ExpandMore
 import androidx.compose.material.icons.filled.MeetingRoom
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -26,7 +27,10 @@ fun RoomItem(
     expandedRooms: Set<Long>,
     expandedContainers: Set<Long>,
     onRoomToggle: (Long) -> Unit,
-    onContainerToggle: (Long) -> Unit
+    onContainerToggle: (Long) -> Unit,
+    onContainerClick: (Long) -> Unit,
+    onEditContainer: (Container) -> Unit,
+    onAddContainer: (Long) -> Unit
 ) {
     val expanded = room.id in expandedRooms
 
@@ -50,11 +54,14 @@ fun RoomItem(
                     fontWeight = FontWeight.SemiBold,
                     modifier = Modifier.weight(1f)
                 )
-                Icon(
+                 Icon(
                     imageVector = if (expanded) Icons.Default.ExpandLess
                     else Icons.Default.ExpandMore,
-                    contentDescription = null
-                )
+                     contentDescription = null
+                 )
+                IconButton(onClick = { onAddContainer(room.id) }) {
+                    Icon(Icons.Default.Add, contentDescription = "Добавить контейнер")
+                }
             }
 
             AnimatedVisibility(visible = expanded) {
@@ -68,7 +75,9 @@ fun RoomItem(
                             container = container,
                             things = thingsByContainer[container.id].orEmpty(),
                             expanded = container.id in expandedContainers,
-                            onToggle = { onContainerToggle(container.id) }
+                            onToggle = { onContainerToggle(container.id) },
+                            onClick = { onContainerClick(container.id) },
+                            onEdit = { onEditContainer(container) }
                         )
                     }
                 }

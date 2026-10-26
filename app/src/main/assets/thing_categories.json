@@ -1,0 +1,7 @@
+[
+  { "id": 1, "category": "Одежда", "icon": "checkroom" },
+  { "id": 2, "category": "Инструменты", "icon": "build" },
+  { "id": 3, "category": "Документы", "icon": "description" },
+  { "id": 4, "category": "Сезонные вещи", "icon": "inventory" },
+  { "id": 5, "category": "Другое", "icon": "category" }
+]

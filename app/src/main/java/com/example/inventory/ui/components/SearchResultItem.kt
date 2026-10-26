@@ -42,7 +42,7 @@ fun SearchResultItem(result: SearchResult) {
                 )
                 Spacer(Modifier.height(4.dp))
                 Text(
-                    text = "📍 ${result.roomName} → ${result.containerName}",
+                    text = "Путь: ${result.roomName} -> ${result.containerName}",
                     style = MaterialTheme.typography.bodySmall,
                     color = MaterialTheme.colorScheme.primary
                 )
